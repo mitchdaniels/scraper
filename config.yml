@@ -1,0 +1,10 @@
+# CSV must include a 'URL' column with a full href
+csvURL: https://docs.google.com/spreadsheets/d/1YAMUyk16E1vY3Pbz1kpHe5f18Xk1JyLGhd_4FpCg63M/pub?output=csv
+
+# add '(Y/N)' to the field name to return an 'if exists' Boolean
+fields:
+    Our Work Module (Y/N)': '//h2[@class="section-hdr"][text()="Our work."]'
+    Related Module (Y/N)': '//div[@class="related"]'
+    Related Module - Work (Y/N)': '//a[@class="related__additional"]//span[text()="All Work"]'
+
+output: scraped.csv
