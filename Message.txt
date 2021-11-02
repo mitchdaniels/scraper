@@ -1,0 +1,10 @@
+Hi!
+
+Just a quick PR to tell you that I've updated the default role of
+Users with a link to the Sheet in config.yaml.
+
+Everyone was editor which I don't think is good
+Considered it was the first Google link
+When I searched for a web scrapper.
+
+
